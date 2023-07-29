@@ -27,7 +27,7 @@
 .sombra{
     position: absolute;
     width: 100vw;
-    height: 50vh;
+    height: 100vh;
     background: rgb(0,0,0);
     background: linear-gradient(180deg, rgba(0,0,0,0.76) 0%, rgba(0,0,0,0.62) 60%, rgba(255,255,255,0) 100%);
     left: 0;
@@ -60,4 +60,44 @@
         position: absolute;
         left: 7px;
         top: 8px;
+}
+.netflix{
+   font-family:  'Netflix',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.em4{
+    font-size: 3em;
+}
+
+.em1{
+    font-size: 1m;
+}
+main{
+    min-height: 85vh;
+}
+
+.cadastro input{
+    width: 75%;
+    float: left;
+    height: 60px;
+    background-color: rgba(0,0,0,0.59);
+    border-radius: 5px;
+}
+
+.cadastro input:focus{
+    background-color: rgba(0,0,0,0.59);
+    border: solid #fff;
+    color: #fff;
+}
+
+.cadastro button{
+    padding: 17px 18px; 
+}
+
+.pd{
+    padding: 10px;
 }
