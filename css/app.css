@@ -1,0 +1,25 @@
+/* zeras padroes do navegador */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* configurar beckground */
+.bg{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/img\ netflix.jpg);
+    top: 0;
+    left: 0;
+}
+.sombra{
+    position: absolute;
+    width: 100vw;
+    height: 50vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.76) 0%, rgba(0,0,0,0.62) 60%, rgba(255,255,255,0) 100%);
+    left: 0;
+    top: 0;
+}
