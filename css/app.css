@@ -5,6 +5,16 @@
     box-sizing: border-box;
 }
 
+.z1{
+    z-index: 1;
+}
+.z2{
+    z-index: 2;
+}
+
+.z3{
+    z-index: 3;
+}
 /* configurar beckground */
 .bg{
     position: absolute;
@@ -22,4 +32,32 @@
     background: linear-gradient(180deg, rgba(0,0,0,0.76) 0%, rgba(0,0,0,0.62) 60%, rgba(255,255,255,0) 100%);
     left: 0;
     top: 0;
+}
+.actions{
+    position: relative;
+}
+
+/* configuração nav */
+#idioma{
+    padding:6px 8px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    text-indent: 30px;
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+
+}
+
+#idioma option{
+    background: black;
+}
+
+
+.icon{
+        color: #fff;
+        position: absolute;
+        left: 7px;
+        top: 8px;
 }
